@@ -1,0 +1,40 @@
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 10px;
+}
+.item{
+    padding: 12px;
+    border-radius: 10px;
+    display: flex;
+    background-color: aliceblue;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.item img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    transition: 500ms;
+}
+.item button{
+    padding: 5px;
+    border: 10px;
+    cursor: pointer;
+    transition: 500ms;
+}
+.item button:hover{
+    background-color: rgb(100, 100, 100);
+    color: white;
+}
+
+@media (max-width:1023px) {
+    .item img{
+        width: 50px;
+        height: 50px;
+
+    }
+}
